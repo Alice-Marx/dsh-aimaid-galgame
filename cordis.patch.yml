@@ -1,0 +1,4 @@
+# Independent GAL plugin for the official DeepSeek Harness desktop.
+- insert:
+    - id: dsh-galgame
+      name: '@ljwei-stak/dsh-galgame'

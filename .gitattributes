@@ -1,0 +1,22 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp3 binary
+*.wav binary
+*.tgz binary
+
+# Published bytes must match the verified npm tarball.
+/.dsh-plugin/client.js -text
+/.dsh-plugin/index.mjs -text
+/.dsh-plugin/gal-remote-service.mjs -text
+/.dsh-plugin/shared/gal-remote.mjs -text
+/package.json -text
+/cordis.patch.yml -text
+/README.md -text
+/README.zh.md -text
+/INSTALLATION_GUIDE.zh.md -text
+/MIGRATION.md -text
+/LICENSE -text
+/docs/*.md -text
+/docs/assets/gal-portrait-sources.json -text
